@@ -1,0 +1,21 @@
+  /* Isso muda a cor do fundo e a fonte do texto */
+  body {
+    background-color: #f0f4f8; /* Um azul bem clarinho */
+    font-family: sans-serif;    /* Tira aquelas serifas de jornal antigo */
+    display: flex;
+    flex-direction: column;
+    align-items: center;       /* Centraliza tudo no meio da tela */
+    padding-top: 50px;
+  }
+
+  /* Isso deixa o seu título bonitão */
+  h1 {
+    color: #003566;            /* Um azul escuro clássico da USP */
+    border-bottom: 2px solid #ffc300; /* Uma linha amarela embaixo */
+  }
+
+  /* Isso formata o seu parágrafo */
+  p {
+    font-size: 18px;
+    color: #333;
+  }

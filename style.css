@@ -19,3 +19,29 @@
     font-size: 18px;
     color: #333;
   }
+
+.cabecalho-principal,
+.conteudo-principal,
+.rodape-principal {
+    max-width: 850px;    
+    margin: 0 auto;      
+    padding: 20px 40px;   
+}
+
+/* Dá um respiro entre as linhas e parágrafos do texto */
+.ensaio-academico p {
+    line-height: 1.7;       /* Aumenta o espaço entre as linhas (entrelinha) */
+    margin-bottom: 18px;    /* Separa um parágrafo do outro */
+    font-size: 16px;        /* Tamanho confortável para leitura */
+    color: #222;            /* Preto um pouquinho mais suave para não arder os olhos */
+}
+
+/* Espaçamento extra nas caixinhas de destaque e títulos */
+.trilha-escolhida {
+    margin: 35px 0;         /* Descola a caixinha azul dos outros textos */
+    padding: 25px;          /* Mais espaço interno na caixinha */
+}
+
+h2, h3 {
+    margin-top: 30px;       /* Dá um respiro antes de começar um novo título */
+}
